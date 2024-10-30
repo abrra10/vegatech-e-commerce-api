@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "products": {
+      "type": "json"
+    },
+    "phoneNumber": {
+      "type": "biginteger"
+    },
+    "wilaya": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "deliveryMethod": {
+      "type": "string"
+    },
+    "termsAgreed": {
+      "type": "boolean"
+    },
+    "commune": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "totalOrderPrice": {
+      "type": "integer"
+    }
+  }
+}
